@@ -1,0 +1,5 @@
+x<-c(10,20,10,30,40)
+print("orignal vector")
+print(x)
+key=as.integer(readline("enter a number to be count"))
+print(sum(x==10))

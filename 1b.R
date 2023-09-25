@@ -1,0 +1,7 @@
+vec<-c(1,2,3,4)
+print("sum of the vector")
+print(sum(vec))
+print("mean of the vector")
+print(mean(vec))
+print("product of the vector")
+print(prod(vec))

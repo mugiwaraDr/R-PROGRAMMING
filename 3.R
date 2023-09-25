@@ -1,0 +1,9 @@
+a<-matrix(c(1,7,3,4,4,6,4,7,12),nrow=3,ncol=3,byrow=TRUE,list(c("p","q","r"),c("x","y","z")))
+print(a)
+a[3,3]<-13
+print(a)
+second_col<-a(c("p","q","r"),c("y"))
+print(second_col)
+third_row<-a(c("r"),c("x","y","r"))
+print(third_row)
+sub_matrix<-a(c("p","q"),c("x","z"))

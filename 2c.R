@@ -1,0 +1,12 @@
+sum<-function(vec)
+{
+  if(length(vec)<=1)
+  {
+    return(vec^2)
+  }else{
+    return(vec[1]^2+sum(vec[-1]))
+  }
+}
+n<-c(1:5)
+result=sum(n)
+print(result)

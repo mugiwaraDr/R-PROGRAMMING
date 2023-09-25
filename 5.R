@@ -1,0 +1,14 @@
+A=matrix(c(1:16),nrow=4,ncol=4,byrow=TRUE)
+print(A)
+B=matrix(c(17:32),nrow=4,ncol=4,byrow=TRUE)
+print(B)
+result_sum=A+B
+print(result_sum)
+result_diff=A-B
+print(result_diff)
+result_mult_reg=A%*%B
+print(result_mult_reg)
+result_mult_elem=A*B
+print(result_mult_elem)
+result_mult_elem=A/B
+print(result_mult_elem)
